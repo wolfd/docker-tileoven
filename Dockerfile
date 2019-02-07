@@ -7,4 +7,6 @@ ADD run-tileoven.sh run-tileoven.sh
 EXPOSE 20008
 EXPOSE 20009
 
+VOLUME ["/root/Documents/MapBox"]
+
 CMD ["./run-tileoven.sh"]
